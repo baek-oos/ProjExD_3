@@ -153,7 +153,7 @@ class Score:
         self.rct.center = (100,HEIGHT-50)
     def update(self, screen):
         score_img = self.fonto.render(f"Score: {self.value}",0,self.color)
-        screen.blit(score_img, (20, 20))
+        screen.blit(score_img,self.rct)
 
 def main():
     pg.display.set_caption("たたかえ！こうかとん")
