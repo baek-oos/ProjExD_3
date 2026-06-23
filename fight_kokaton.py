@@ -4,6 +4,7 @@ import sys
 import time
 import pygame as pg
 
+
 WIDTH = 1100  # ゲームウィンドウの幅
 HEIGHT = 650  # ゲームウィンドウの高さ
 NUM_OF_BOMBS = 5 
